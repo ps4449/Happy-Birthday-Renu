@@ -1,0 +1,108 @@
+/* Global Styles */
+
+* {
+	box-sizing: border-box;
+	background-color: #00FF66;
+	background-image: url("Background.jpeg");
+	background-repeat: repeat;
+	font-family: "Comic Sans MS","Comic Sans", cursive;
+	font-size: 20px;
+}
+
+/* Specific Styles */
+
+h1 {
+	color: #FFFFFF;
+	font-size: 70px;
+	margin: 0;
+	background-image: none;
+}
+h2 {
+	color: #000000;
+	font-size: 30px;
+	font-style: italic;
+	font-weight: bold;
+	background-image: none;
+}
+h3 {
+	color: #FFFFFF;
+	background-image: none;
+	background-color: #000000;
+}
+/* Header */
+
+.header {
+	align-items: center;
+	text-align: center;
+	color: #000000;
+}
+.header p {
+	font-weight: bold;
+	background-image: none;
+}
+
+/* Photo Gallery */
+
+div.row {
+	margin-bottom: 20px;
+}
+.column {
+  float: right;
+  width: 33.33%;
+  padding: 5px;
+}
+div.column {
+	background-color: #FF6EC7;
+	background-image: none;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Text */
+
+ol.text {
+	background-color: #000000;
+}
+
+.text p {
+	padding: 20px;
+	color: #FFFFFF;
+	background-image: none;
+	background-color: #000000;
+}
+
+.text ol {
+	color: #FFFFFF;
+	background-image: none;
+	background-color: #000000
+}
+
+.text ol li {
+	color: #FFFFFF;
+	background-image: none;
+	background-color: #000000
+}
+
+.text ul li {
+	color: #FFFFFF;
+	background-image: none;
+	background-color: #000000
+}
+
+a:link, a:visited {
+	background-image: none;
+	background-color: #000000;
+	color: #FFFFFF;
+	text-decoration: underline;
+  	cursor: pointer;
+}
+
+.footer p {
+	background-image: none;
+	background-color: #00FF66;
+	color: #FFFFFF;
+	text-align: center;
+}
